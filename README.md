@@ -1,9 +1,28 @@
 # PrefabSystem w-PrototypePattern
+## Unity Prefab Clone and Geometric Shape Generator
 
-Hey!
-I am Oğuzhan and I have been working in various fields as a software developer for over 4 years.
+ProceduralCloner is a Unity project that provides functionalities to clone prefabs and generate different geometric shapes procedurally.
 
-In this project, I wanted to make an example for the Prototype Design Pattern. I hope it was understandable and educational.
+## Features
 
-For more about me, you can check out:
-https://linktr.ee/deliibass
+- **Prefab Cloning:** Clone predefined geometric shapes (Cube and Sphere) at specified positions.
+- **Dynamic Shape Generation:** Generate 3D shapes like cubes and spheres using procedural methods.
+- **Object Pooling:** Improve performance by using object pooling techniques for instantiated objects.
+- **Easy to Use:** The provided functions make it simple to create clones and procedural shapes in your Unity projects.
+
+## Installation
+
+1. Clone this repository to your local machine.
+2. Open the project in Unity.
+3. Explore the `ProceduralCloner` script for functions and usage examples.
+
+## Usage
+
+You can use the `ProceduralCloner` script to clone prefabs or create procedural shapes:
+
+```csharp
+// Clone a cube at a specific position
+ProceduralCloner.Clone(new Vector3(0f, 0f, 0f), "Cube");
+
+// Create a procedural sphere at a specific position
+ProceduralCloner.CreateSphere(new Vector3(2f, 0f, 0f));
