@@ -23,6 +23,7 @@ You can use the `ProceduralCloner` script to clone prefabs or create procedural 
 ```csharp
 // Clone a cube at a specific position
 ProceduralCloner.Clone(new Vector3(0f, 0f, 0f), "Cube");
+```
 
 ![Unity_JYBOnllhKT](https://github.com/oguzhandelibas/PrefabSystem/assets/64430254/42a41872-efad-4855-a288-0163d1ed323b)
 
@@ -30,5 +31,6 @@ ProceduralCloner.Clone(new Vector3(0f, 0f, 0f), "Cube");
 ```csharp
 // Create a procedural sphere at a specific position
 ProceduralCloner.CreateSphere(new Vector3(2f, 0f, 0f));
+```
 
 ![Unity_iCTqp1kqIr](https://github.com/oguzhandelibas/PrefabSystem/assets/64430254/b7ebcd8b-8a31-4ddc-8d72-9a7c494db354)
