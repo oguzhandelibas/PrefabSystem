@@ -1,7 +1,7 @@
-# PrefabSystem w-PrototypePattern
+# PrefabSystem
 ## Unity Prefab Clone and Geometric Shape Generator
 
-ProceduralCloner is a Unity project that provides functionalities to clone prefabs and generate different geometric shapes procedurally.
+PrefabSystem Clone is a Unity project developed using the Prototype Pattern, which provides functions to clone prefabs and procedurally generate different geometric shapes.
 
 ## Features
 
